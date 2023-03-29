@@ -1,4 +1,3 @@
-//Hämta to-the-top-knapp
 mybutton = document.getElementByClass("topBtn");
 
 function scrollFunction() {
@@ -9,7 +8,6 @@ function scrollFunction() {
   }
 }
 
-// vid klick, scrollas man upp
 function topFunction() {
   document.body.scrollTop = 0; //  Safari
   document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
